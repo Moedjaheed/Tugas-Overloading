@@ -60,5 +60,25 @@ std::vector<float> mahasiswa::getAllIPS()
 	return this->ips;
 }
 
+std::string mahasiswa::getNRP()
+{
+	return this->nrp;
+}
+
+void mahasiswa::setDepartemen(std::string departemen)
+{
+	this->departemen = departemen;
+}
+
+std::string mahasiswa::getDepartemen()
+{
+	return this->departemen;
+}
+
+int mahasiswa::getTahunMasuk()
+{
+	return this->tahunmasuk;
+}
+
 
 

@@ -30,6 +30,12 @@ public:
 	void setIPS(int semester, float ips);
 	float getIPS(int semester);
 	std::vector<float> getAllIPS();
+	std::string getNRP();
+
+	void setDepartemen(std::string departemen);
+	std::string getDepartemen();
+
+	int getTahunMasuk();
 };
 
 #endif
