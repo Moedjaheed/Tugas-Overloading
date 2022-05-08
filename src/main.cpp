@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "include/rectangular.hpp"
+#include "include/PersegiPanjang.hpp"
 using namespace std;
 
 float length, 
@@ -165,7 +165,7 @@ void startProgram(){
 void endProgram(){
     cout << endl;
     cout << "Terimakasih telah menggunakan program saya" << endl;
-    cout << "Press Enter to Continue...";
+    cout << "Tekan Enter untuk menselesaikan...";
     cin.get();
 }
 void clear(){
